@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico"/>
+		<title>Resume</title>
+
+		<!-- bootstrap stylesheet -->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+
+		<!-- own stylesheet -->
+		<link rel="stylesheet" href="css/resume.css" />
+
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	</head>
+	<body>
+		<section class="top-bar">
+		 <div class="logo">
+			 <a href="index.html">
+				 <img src="/images/logo.png" height="65px" width="65px" alt="">
+			 </a>
+		 </div>
+		 <div class="menu">
+			 <a href="#" class="openbtn" onclick="openNav()">
+				<i class="fa fa-bars"></i>
+			</a>
+		 </div> 
+	 </section>
+	 <section class="overlay" id="nav">
+		 <a href="#" class="closeBtn" onclick="closeNav()">×</a>
+		 <div class="overlay_content">
+			 <a href="index.html">Home</a>
+			 <a href="about.html">About</a>
+			 <a href="resume.html">Resume</a>
+			 <a href="contact.html">Contact</a>
+		 </div>
+	 </section>
+
+
+
+
+
+		<!-- <section class="banner-section">
+			<div class="container banner-cont">
+				<div class="row">
+					<div
+						class="col-xl-7 col-lg-8 col-md-10 col-sm-12 banner-text"
+					>
+						
+						<h2 class="p-banner">
+							Dig a little <br> deeper
+						</h2>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+
+
+
+		<!-- about section -->
+
+		<section class="about-main">
+			<div class="container container-4">
+				<div class="row">
+					<div
+						class="col-xl-7 col-lg-8 col-md-10 col-sm-12 banner-text"
+					>
+						<!-- <h1 class="h1-banner">About</h1> -->
+						<h2 class="p-banner">
+							Dig a little <br> Deeper
+						</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 text-left">
+						<h5 class="right"> <span class="emoji">👨🏻‍💻 </span> Resume</h5>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 text-right">
+						<p>
+							<a href="https://drive.google.com/file/d/1j24_txRtG-FkGkdGtYgRz8ibfbYcq55M/view?usp=sharing"
+								>View Resume
+								<i
+									class="fa fa-long-arrow-right"
+									aria-hidden="true"
+								></i
+							></a>
+						</p>
+					</div>
+				</div>
+                <hr color="#e1a87a" />
+                <div class="row about-row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 about-1">
+                        <h4>My Skills</h4>
+                    </div>
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 about-1">
+                                    <p>Data Analysis</p>
+                                    <p>Data Visualization</p>
+                                    <p>Business Analysis</p>
+                                
+                    </div>
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 about-1">
+                                    <p>Equity Research</p>
+                                    <p>Financial Analysis</p>
+                                    <p>Web Development</p>
+                                
+                    </div>
+                    <!-- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+						<h4>Quick 1s and 0s</h4>
+						<ul class="top-list">
+							<p><li>I manage myself using Notion.so and ☕️</li></p>
+							<p><li>I communicate best through in-person conversation, phone calls, and e-mail (in that order).</li></p>
+							<p><li>I write code in Jupyter , PyCharm, and Visual Studio Code</li></p>
+						</ul>
+						
+                        <h4>My Skills</h4>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <p>Data Analysis</p>
+                                    <p>Data Visualization</p>
+                                    <p>Business Analysis</p>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <p>Equity Research</p>
+                                    <p>Financial Analysis</p>
+                                    <p>Web Development</p>
+                                </div>
+                               <p><a href="">Resume<i
+									class="fa fa-long-arrow-right"
+									aria-hidden="true"
+								></i
+							></a></p>
+                    </div>
+                </div>                -->
+			</div>
+			 <div class="row row-skills">
+				 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+					 <h4>Technologies</h4>
+				 </div>
+				 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+					 <h4>Day-To-Day Comfort</h4>
+					 
+					 <ul class="technical-skills">
+						 <li><p>Python</p></li>
+						 <li><p>Numpy/ Pandas/ MatplotLib</p></li>
+						 <!-- <li><p>R/ SAS</p></li> -->
+						 <li><p>Tableau/ Google Data Studio</p></li>
+						 <li><p>HTML5/ CSS3/ BootStrap</p></li>
+						 <li><p>Ms Office Tools</p></li>
+						 <li><p>Canva</p></li>
+						 <li><p>Figma</p></li>
+					 </ul>
+				 </div>
+				 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+				 	<h4>Experience With</h4>
+					 
+					 <ul class="technical-skills">
+						 <li><p>JavaScript</p></li>
+						 <li><p>Flask(Limited)</p></li>
+						 <li><p>Java(Limited)</p></li>
+						 <li><p>React.js(Limited)</p></li>
+						 
+					 </ul>
+					 </div>
+			 </div>
+			 <div class="row row-skills">
+				 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+					 <h4>Certifications <br> & Workshops</h4>
+				 </div>
+				 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+					 <ul class="technical-certifications">
+						 <li><p>Web Development, by Dr. Angela Yu, Udemy.</p></li>
+						 <li><p>Startup India Learning Program, by Startup India, a GOI initiative, upGrad.
+</p></li>
+						 <!-- <li><p>R/ SAS</p></li> -->
+						 <li><p>Data Science and Machine Learning, by Jose Portilla, Udemy.</p></li>
+						 <li><p>Python Programming and automation, by Al Sweigart, Udemy.</p></li>
+						 <li><p>Algorithmic Trading and Stocks Essential Training, by Dr. Michael Mcdonald, Linkedin Learning</p></li>
+						 <li><p>Building Interactive Dashboards using Google Data Studio, by Jatan Shah, Microsoft Certified Trainer, Skill Nation.</p></li>
+						 <li><p>Communication BootCamp Program, by Rahul Bhatnagar, Professional Speaker. </p></li>
+					 </ul>
+				 </div>
+				 <!-- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+				 	<h4>Experience With</h4>
+					 
+					 <ul class="technical-skills">
+						 <li><p>JavaScript</p></li>
+						 <li><p>Flask(Limited)</p></li>
+						 <li><p>Java(Limited)</p></li>
+						 <li><p>React.js(Limited)</p></li>
+						 
+					 </ul>
+					 </div> -->
+			 </div>
+			 <div class="row row-exp">
+				 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+					 <h4>Work Experience</h4>
+				 </div>
+				 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+					   <h5>Co-Founder</h5>
+					   <p class="work-ex-info"><strong> <a href="https://linktr.ee/whatafterschool">What After School?</a></strong>, India, June 2021 - Present</p>
+					   <p>
+					   Building a community platform for budding/ aspiring/ upcoming talent to connect with the professionals in their respective streams. A platform where one can share insights and experiences in order to help others progress.
+
+ 
+				</p>
+
+				   </div>
+				   </div>
+				   <br>
+  				 <div class="row row-second">
+				 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+					 <!-- <h4>Work Experience</h4> -->
+				 </div>
+  				 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+					   <h5>Freelance Web Developer</h5>
+					   <p class="work-ex-info"><strong> <a href="https://believeexim.com/">BelieveExim</a></strong>, Mumbai, December 2020 - January 2021</p>
+					   <p>
+					   BelieveExim is Exporter, supplier, manufacturer and packers of high quality natural and organic Vagetables & Fruits, which meets international standards.
+					   Worked on the frontend part of the website, design and creation of the UI. Technology stack used: HTML5, CSS3, Bootstrap4, jQuery and JavaScript libraries. 
+				</p>
+
+				   </div>
+			 </div>
+		
+			 <br>
+			 <div class="row row-second">
+				 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+					 <!-- <h4>Work Experience</h4> -->
+				 </div>
+  				 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+					   <h5>Training Internship</h5>
+					   <p class="work-ex-info"><strong> <a href="https://www.robosync.in">RoboSync</a></strong>, Mumbai, August 2019 - November 2019</p>
+					   <p>
+					   At RoboSync, learned about basics of Internet of things, Robotics Technology, Augmented Reality & Embedded Systems. Also worked on small projects of IoT and Robotics, etc. Technology Stack used: Aurdino Uno, different types of sensors. Also got a short glance of the Unity platform. 
+				</p>
+				   </div>
+			 </div>
+
+			 <!-- education -->
+			 <div class="row row-exp row-second">
+				 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+					 <h4>Education</h4>
+				 </div>
+  				 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+					   <h5>Bachelor of Engineering, CMPN </h5>
+					   <p class="work-ex-info"><strong> <a href="http://www.viva-technology.org/New/">VIVA Institute of Technology</a></strong>, University of Mumbai, 2018 - present</p>
+					   <p>
+					   <li>CGPI - 7.77/ 10 (Upto sem 6)</li>
+					   <li>Chairman, CSI-VIVA TECH committee, July 2021 - Present</li>
+					   <li>Vice Chairman, CSI-VIVA TECH committee, February 2021 - July 2021</li>
+					   <li>Public Relations Head, CSI-VIVA TECH committee, August 2019 - February 2021</li>
+				</p>
+
+				   </div>
+				   
+			 </div>
+			 <br>
+			 <div class="row row-second">
+				 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+					 <!-- <h4>Work Experience</h4> -->
+				 </div>
+  				 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+					   <h5>Class 12th</h5>
+					   <p class="work-ex-info"><strong> <a href="http://www.avc.ac.in">Annasaheb Vartak College</a></strong>, Vasai, Mumbai , 2016 - 2018</p>
+					   <p>
+					   <li>Grade: 71.04 %</li>
+					   <li>Computer Science as 4th subject alongside PCM.</li>
+				</p>
+				   </div>
+			 </div>
+			 <br>
+			 <div class="row row-second">
+				 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+					 <!-- <h4>Work Experience</h4> -->
+				 </div>
+  				 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+					   <h5>Class 10th</h5>
+					   <p class="work-ex-info"><strong> <a href="">St. Xavier's High School</a></strong>, Virar, Mumbai , 2016</p>
+					   <p>
+					   <li>Grade: 91.40 %</li>
+				</p>
+				   </div>
+			 </div>
+			 
+			 <!-- projects -->
+
+			 <div class="row row-projects">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 text-left">
+						<h5 class="right"> <span class="emoji">💻 </span> Projects</h5>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 text-right">
+						<p>
+							<a href="https://github.com/adityabawa31"
+								>View GitHub
+								<i
+									class="fa fa-long-arrow-right"
+									aria-hidden="true"
+								></i
+							></a>
+						</p>
+					</div>
+				</div>
+				<hr color="#e1a87a" />
+				<div class="row row-projects-card">
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 py-3 py-sm-0">
+						<div class="div-skillset">
+							<h4 class="skill-heading">FinBot <p class="paragraph-info" >An AI Chatbot</p></h4>
+							<p class="paragraph-skills">FinBot is a webapp with an integrated chatbot, the webapp focuses on providing financial knowledge to everyone. <br> <br>
+							Technology Stack used: React.js, Python, Flask.</p>
+							<p><a href="http://103.80.157.62:3000">View Project</a><i
+									class="fa fa-long-arrow-right"
+									aria-hidden="true"
+								></i
+							></p>
+							
+						</div>
+					</div>
+					<br>
+					<br>
+					<!-- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 py-3 py-sm-0">
+						<div class="div-skillset">
+							<h4 class="skill-heading">FinBot <p class="paragraph-info" >An AI Chatbot</p></h4>
+							<p class="paragraph-skills">FinBot is a webapp with an integrated chatbot, the webapp focuses on providing financial knowledge to everyone. <br> <br>
+							Technology Stack used: React.js, Python, Flask.</p>
+							<p><a href="">View Project</a><i
+									class="fa fa-long-arrow-right"
+									aria-hidden="true"
+								></i
+							></p>
+							
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 py-3 py-sm-0">
+						<div class="div-skillset">
+							<h4 class="skill-heading">FinBot <p class="paragraph-info" >An AI Chatbot</p></h4>
+							<p class="paragraph-skills">FinBot is a webapp with an integrated chatbot, the webapp focuses on providing financial knowledge to everyone. <br> <br>
+							Technology Stack used: React.js, Python, Flask.</p>
+							<p><a href="">View Project</a><i
+									class="fa fa-long-arrow-right"
+									aria-hidden="true"
+								></i
+							></p>
+							
+						</div>
+					</div> -->
+				</div>
+
+            </div>
+		</section>
+
+		<!-- Footer -->
+	<section class="section-footer" id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-12 col-md-12 text-center">
+					<p class="quote">"As people mature, the desire for praise morphs into the desire of praiseworthiness"</p>
+					<h1 class="footer-h2">Aditya Bawa</h1>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.linkedin.com/in/adityabawa"><i class="fa fa-linkedin"></i></a></li>
+						<li class="list-inline-item"><a href="https://github.com/adityabawa31"><i class="fa fa-github"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/adityabawa31?s=09"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/adityabawa31/?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="mailto:work.adityabawa31@gmail.com"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<a class="text-green ml-2" href="" target="_blank">&copy All right Reversed @ 2021</a>
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+		<!-- <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script src="circle-progress.js"></script> -->
+		<script src="scroll-out.js"></script>
+		<script type="text/javascript">
+		ScrollOut({
+			targets: 'p,a, li, h2, h4, h5, img, row, div'
+		})
+		</script>
+		<script>
+			document
+				.getElementById("hamburger")
+				.addEventListener("click", function () {
+					this.classList.toggle("active");
+					document
+						.querySelector(".mobile-menu")
+						.classList.toggle("active");
+				});
+		</script>
+		<script>
+			function openNav(){
+    document.getElementById('nav').style.width = "100%";
+}
+
+function closeNav(){
+    document.getElementById('nav').style.width = "0%";
+}
+		</script>
+	</body>
+</html>
